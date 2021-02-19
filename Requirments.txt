@@ -1,0 +1,19 @@
+Requirments
+
+Web3 - python library for interacting with the Ethereum blockchain.
+pip install web3
+
+Bit - python library for interacting with Bitcoin.
+pip install bit
+
+hd-wallet-derive - 
+download instructions:
+git clone https://github.com/dan-da/hd-wallet-derive
+cd hd-wallet-derive
+curl https://getcomposer.org/installer -o installer.php
+php installer.php
+php composer.phar install
+
+After installing hd-wallet-derive, then create a symlink called derive for the hd-wallet-derive/hd-wallet-derive.php script into the top level project. 
+To do so run this command:
+ln -s hd-wallet-derive/hd-wallet-derive.php derive
